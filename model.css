@@ -1,0 +1,62 @@
+body{ width: 500px; padding: 5px; margin: 0 auto;}
+#layout{background-color: aqua; text-align: center;}
+.gauche{text-align: left;}
+.droite{text-align: right;}
+.justifie{text-align: justify;}
+h2{color: blue; font-size: 1.5em; text-transform: capitalize;}
+button{color: blue; background-color: yellow; width: 100px;}
+p{color:  red;}
+
+
+
+
+
+/*ex2*/
+
+  tr:nth-child(6n+2), tr:nth-child(6n+3), tr:nth-child(6n+4),tr:nth-child(6n+5)  {
+    background-color: #FCC; / Red /
+  }
+
+  tr:nth-child(6n+5) {
+    background-color: #FFC; 
+  }
+  tr:nth-child(6n+6) {
+    background-color: #CFC; 
+  }
+
+  tr:nth-child(6n+7) {
+    background-color:#CFF; 
+  }
+  tr:nth-child(6n+8),
+  tr:nth-child(6n+9),
+  tr:nth-child(6n+10), tr:nth-child(6n+11) {
+    background-color: #CcF;
+  }
+
+  table {
+    width: 50%;
+    border: solid 2px blue;
+    border-collapse: collapse;
+  }
+  
+  th {
+    background-color: silver;
+    height: 40px;
+  }
+  
+  
+  
+  td, th {
+      padding: 10px;
+      border: 1px solid black;
+    }
+
+    /*ex3*/ 
+.ex3{text-align: center;
+    color: black ;
+    border-right:dotted 10px blue ;
+    border-left: solid 10px black;
+    border-top:solid 10px red;
+    border-bottom:dashed 10px green;
+    margin: 78px;
+}
